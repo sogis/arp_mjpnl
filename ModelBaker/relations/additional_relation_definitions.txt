@@ -1,0 +1,24 @@
+Relationen:
+
+Vereinbarung zu GELAN-Person: Name:=Vereinbaru_gelan_pid_gelan_GELAN_Pers_pid_gelan, Referenced_Layer:='GELAN Person', Referenced_Field:='pid_gelan (PID_GELAN)', Referencing_Layer:='Vereinbarung', Referencing_Field:='gelan_pid_gelan (GELAN Person)'
+Vereinbarung zu GELAN-Bewirtschaftungseinheit: Name:=Vereinbaru_gelan_bewe_id_Bewirtscha_bewe_id, Referenced_Layer:='Bewirtschaftungseinheit', Referenced_Field:='bewe_id (BewE_ID)', Referencing_Layer:='Vereinbarung', Referencing_Field:='gelan_bewe_id (GELAN Bewirtschaftungseinheit)'
+
+Beurteilung Wiese:
+Beurteilung_Wiese_Artenfoerderung_FF_Zielart1: Name:=Beurteilung_Wiese_Artenfoerderung_FF_Zielart1, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung Wiese', Referenced_Field:='artenfoerderung_ff_zielart1 (Artenförderung Fauna oder Flora Zielart 1)'
+Beurteilung_Wiese_Artenfoerderung_FF_Zielart2: Name:=Beurteilung_Wiese_Artenfoerderung_FF_Zielart2, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung Wiese', Referenced_Field:='artenfoerderung_ff_zielart2 (Artenförderung Fauna oder Flora Zielart 2)'
+Beurteilung_Wiese_Artenfoerderung_FF_Zielart3: Name:=Beurteilung_Wiese_Artenfoerderung_FF_Zielart3, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung Wiese', Referenced_Field:='artenfoerderung_ff_zielart3 (Artenförderung Fauna oder Flora Zielart 3)'
+
+Beurteilung WeideSoeG:
+Beurteilung_WeideSoeG_Artenfoerderung_FF_Zielart1: Name:=Beurteilung_WeideSoeG_Artenfoerderung_FF_Zielart1, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung Weide SöG', Referenced_Field:='artenfoerderung_ff_zielart1 (Artenförderung Fauna oder Flora Zielart 1)'
+Beurteilung_WeideSoeG_Artenfoerderung_FF_Zielart2: Name:=Beurteilung_WeideSoeG_Artenfoerderung_FF_Zielart2, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung Weide SöG', Referenced_Field:='artenfoerderung_ff_zielart2 (Artenförderung Fauna oder Flora Zielart 2)'
+Beurteilung_WeideSoeG_Artenfoerderung_FF_Zielart3: Name:=Beurteilung_WeideSoeG_Artenfoerderung_FF_Zielart3, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung Weide SöG', Referenced_Field:='artenfoerderung_ff_zielart3 (Artenförderung Fauna oder Flora Zielart 3)'
+
+Beurteilung WBL Wiese:
+Beurteilung_WBL_Wiese_Artenfoerderung_FF_Zielart1: Name:=Beurteilung_WBL_Wiese_Artenfoerderung_FF_Zielart1, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung WBL Wiese', Referenced_Field:='artenfoerderung_ff_zielart1 (Artenförderung Fauna oder Flora Zielart 1)'
+Beurteilung_WBL_Wiese_Artenfoerderung_FF_Zielart2: Name:=Beurteilung_WBL_Wiese_Artenfoerderung_FF_Zielart2, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung WBL Wiese', Referenced_Field:='artenfoerderung_ff_zielart2 (Artenförderung Fauna oder Flora Zielart 2)'
+Beurteilung_WBL_Wiese_Artenfoerderung_FF_Zielart3: Name:=Beurteilung_WBL_Wiese_Artenfoerderung_FF_Zielart3, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung WBL Wiese', Referenced_Field:='artenfoerderung_ff_zielart3 (Artenförderung Fauna oder Flora Zielart 3)'
+
+Beurteilung WBL_Weide:
+Beurteilung_WBL_Weide_Artenfoerderung_FF_Zielart1: Name:=Beurteilung_WeideSoeG_Artenfoerderung_FF_Zielart1, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung WBL Weide', Referenced_Field:='artenfoerderung_ff_zielart1 (Artenförderung Fauna oder Flora Zielart 1)'
+Beurteilung_WBL_Weide_Artenfoerderung_FF_Zielart2: Name:=Beurteilung_WeideSoeG_Artenfoerderung_FF_Zielart2, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung WBL Weide', Referenced_Field:='artenfoerderung_ff_zielart2 (Artenförderung Fauna oder Flora Zielart 2)'
+Beurteilung_WBL_Weide_Artenfoerderung_FF_Zielart3: Name:=Beurteilung_WeideSoeG_Artenfoerderung_FF_Zielart3, Referenced_Layer:='Fauna- und FLoraliste (kombiniert)', Referenced_Field:='name_lateinisch', Referencing_Layer:='Beurteilung WBL Weide', Referenced_Field:='artenfoerderung_ff_zielart3 (Artenförderung Fauna oder Flora Zielart 3)'

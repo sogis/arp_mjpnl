@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TRANSFER
+	xmlns="http://www.interlis.ch/INTERLIS2.3">
+	<HEADERSECTION SENDER="SOGIS-20190203" VERSION="2.3">
+		<MODELS>
+			<MODEL NAME="IliRepository09" VERSION="2012-02-20" URI="mailto:ce@eisenhutinformatik.ch"></MODEL>
+		</MODELS>
+	</HEADERSECTION>
+	<DATASECTION>
+		<!--<IliRepository09.RepositoryIndex BID="b1">
+			<IliRepository09.RepositoryIndex.ModelMetadata TID="121">
+				<Name>SO_ARP_MJPNL_20201026</Name>
+				<SchemaLanguage>ili2_3</SchemaLanguage>
+				<File>additional_local_ili_files/SO_ARP_MJPNL_20201026.ili</File>
+				<Version>2020-10-26</Version>
+				<dependsOnModel>
+					<IliRepository09.ModelName_>
+						<value>GeometryCHLV95_V1</value>
+					</IliRepository09.ModelName_>
+					<IliRepository09.ModelName_>
+						<value>Units</value>
+					</IliRepository09.ModelName_>
+					<IliRepository09.ModelName_>
+						<value>CHAdminCodes_V1</value>
+					</IliRepository09.ModelName_>
+					<IliRepository09.ModelName_>
+						<value>SO_ALW_Landwirtschaft_Tierhaltung_20210426</value>
+					</IliRepository09.ModelName_>
+				</dependsOnModel>
+				<Issuer>http://www.geo.so.ch/models</Issuer>
+				<technicalContact>mailto:agi@bd.so.ch</technicalContact>
+				<md5>ea979308ef1bca2b932aaf0671d71dfb</md5>
+			</IliRepository09.RepositoryIndex.ModelMetadata>
+		</IliRepository09.RepositoryIndex>
+		-->
+	</DATASECTION>
+</TRANSFER>

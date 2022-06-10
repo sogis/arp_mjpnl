@@ -1,0 +1,11 @@
+[SO_ALW_Landwirtschaft_Tierhaltung_20210426.Betriebsdaten_Strukturdaten.Kultur_Flaechen]
+ili2db.dispName="Kultur Flächen"
+
+[SO_ALW_Landwirtschaft_Tierhaltung_20210426.Betriebsdaten_Strukturdaten.Kultur_Punktelemente]
+ili2db.dispName="Kultur Punktelemente"
+
+[SO_ALW_Landwirtschaft_Tierhaltung_20210426.Betriebsdaten_Strukturdaten.GELAN_Person]
+ili2db.dispName="GELAN Person"
+
+[SO_ALW_Landwirtschaft_Tierhaltung_20210426.Betriebsdaten_Strukturdaten.Summe_Tiere_Flaechen]
+ili2db.dispName="Summe Tiere Flächen"

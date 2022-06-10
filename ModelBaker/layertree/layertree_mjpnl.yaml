@@ -1,0 +1,119 @@
+layertree:
+    - "MJPNL":
+        group: true
+        checked: true
+        expanded: true
+        child-nodes:
+            - "Vereinbarung":
+                checked: true
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Vereinbarung"
+            - "Rayon":
+                checked: false
+            - "UZL Subregion":
+                checked: false
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.UZL_Subregion"
+            - "Beurteilung Wiese":
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Beurteilung_Wiese"
+            - "Beurteilung Weide LN":
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Beurteilung_Weide_LN"
+            - "Beurteilung Weide SöG":
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Beurteilung_Weide_SoeG"
+            - "Beurteilung WBL Wiese":
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Beurteilung_WBL_Wiese"
+            - "Beurteilung WBL Weide":
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Beurteilung_WBL_Weide"
+            - "Beurteilung Hecke":
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Beurteilung_Hecke"
+            - "Strukturelemente":
+                group: true
+                checked: false
+                expanded: false
+                child-nodes:
+                    - "Strukturelement Punkt":
+                        qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Strukturelement_Punkt"
+                    - "Strukturelement Linie":
+                        qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Strukturelement_Linie"
+                    - "Strukturelement Fläche":
+                        qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Strukturelement_Flaeche"
+            - "Beobachtung Flora":
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Beobachtung_Flora"
+            - "Beobachtung Fauna":
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Beobachtung_Fauna"
+            - "Floraliste":
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Floraliste"
+            - "Faunaliste":
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Faunaliste"
+            - "Fauna- und Floraliste (kombiniert)":
+                definitionfile: "../layertree/fauna_und_floraliste_kombiniert.qlr"
+            - "Berater":
+            - "Abrechnung":
+            - "Foto":
+    - "GELAN":
+        group: true
+        checked: false
+        expanded: true
+        child-nodes:
+            - "Standorte":
+                checked: true
+            - "Kultur Punktelemente":
+                checked: true
+            - "Kultur Flächen":
+                checked: false
+            - "Bewirtschaftungseinheit":
+                checked: false
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Bewirtschaftungseinheit"
+            - "GELAN Person":
+                qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.GELAN_Person"
+            - "Betrieb":
+                 qmlstylefile: "ilidata:ch.so.topping.SO_ARP_MJPNL_20201026.Betrieb"
+            - "Summe Tiere Flächen":
+    - "Wertelisten":
+        group: true
+        checked: false
+        expanded: false
+        child-nodes:
+            - "Vereinbarungsart":
+            - "Vereinbarung_Status":
+            - "Abgeltungsart":
+            - "Weidenkategorie":
+            - "Wiesenkategorie":
+            - "Floraliste_Eigenschaft":
+            - "Floraliste_Haeufigkeit":
+            - "Faunaliste_Status":
+            - "Faunaliste_Gruppe":
+            - "CHCantonCode":
+            - "MJPNL_Version":
+    - "Amtliche Vermessung":
+        group: true
+        checked: false
+        expanded: true
+        definitionfile: "../layertree/amtliche_vermessung.qlr"
+    - "Hintergrundkarten":
+        group: true
+        checked: true
+        expanded: true
+        definitionfile: "../layertree/hintergrundkarten.qlr"
+    - "System":
+        group: true
+        checked: true
+        expanded: true
+        child-nodes:
+            - "t_ili2db_dataset":
+            - "t_ili2db_basket":
+layer-order:
+  - "Strukturelement Punkt"
+  - "Standorte"
+  - "Kultur Punktelemente"
+  - "Strukturelement Linie"
+  - "Strukturelement Fläche"
+  - "Vereinbarung"
+  - "Bewirtschaftungseinheit"
+  - "Kultur Flächen"
+  - "Rayon"
+  - "UZL Subregion"
+  - "AV Flurname"
+  - "AV Grundstück"
+  - "AV Gemeindegrenze"
+  - "Hintergrundkarte Orthofoto"
+  - "Hintergrundkarte schwarz-weiss"
+  - "Hintergrundkarte farbig"

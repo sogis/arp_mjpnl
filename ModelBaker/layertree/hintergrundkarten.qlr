@@ -1,0 +1,302 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" expanded="1" checked="Qt::Checked">
+    <customproperties/>
+    <layer-tree-group mutually-exclusive-child="0" mutually-exclusive="1" name="Hintergrundkarten" expanded="0" checked="Qt::Checked">
+      <customproperties/>
+      <layer-tree-layer providerKey="wms" legend_exp="" source="contextualWMSLegend=0&amp;crs=EPSG:2056&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ch.so.agi.hintergrundkarte_ortho&amp;styles&amp;url=https://geo.so.ch/api/wms" legend_split_behavior="0" name="Hintergrundkarte Orthofoto" checked="Qt::Checked" expanded="1" patch_size="-1,-1" id="Hintergrundkarte_Orthofoto_d3f9356f_a395_44c0_a18e_e1a4feaa84ee">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="wms" legend_exp="" source="contextualWMSLegend=0&amp;crs=EPSG:2056&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ch.so.agi.hintergrundkarte_sw&amp;styles&amp;url=https://geo.so.ch/api/wms" legend_split_behavior="0" name="Hintergrundkarte schwarz-weiss" checked="Qt::Unchecked" expanded="1" patch_size="-1,-1" id="Hintergrundkarte_schwarz_weiss_f54b67f7_0aad_461f_bf55_504878dd37ce">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="wms" legend_exp="" source="contextualWMSLegend=0&amp;crs=EPSG:2056&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ch.so.agi.hintergrundkarte_farbig&amp;styles&amp;url=https://geo.so.ch/api/wms" legend_split_behavior="0" name="Hintergrundkarte farbig" checked="Qt::Unchecked" expanded="1" patch_size="-1,-1" id="Hintergrundkarte_farbig_b163ac03_4cb2_448a_a63e_12f9ea46178a">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" autoRefreshEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" refreshOnNotifyEnabled="0" maxScale="0">
+      <extent>
+        <xmin>2569690</xmin>
+        <ymin>1207620</ymin>
+        <xmax>2667680</xmax>
+        <ymax>1268380</ymax>
+      </extent>
+      <id>Hintergrundkarte_Orthofoto_d3f9356f_a395_44c0_a18e_e1a4feaa84ee</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:2056&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ch.so.agi.hintergrundkarte_ortho&amp;styles&amp;url=https://geo.so.ch/api/wms</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Hintergrundkarte Orthofoto</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],AREA["Liechtenstein; Switzerland."],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
+          <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal fetchMode="0" mode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property value="Html" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" opacity="1" alphaBand="-1" nodataColor="" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeRed="255" saturation="0" colorizeOn="0" colorizeBlue="128" colorizeGreen="128" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" autoRefreshEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" refreshOnNotifyEnabled="0" maxScale="0">
+      <extent>
+        <xmin>2569690</xmin>
+        <ymin>1207620</ymin>
+        <xmax>2667680</xmax>
+        <ymax>1268380</ymax>
+      </extent>
+      <id>Hintergrundkarte_schwarz_weiss_f54b67f7_0aad_461f_bf55_504878dd37ce</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:2056&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ch.so.agi.hintergrundkarte_sw&amp;styles&amp;url=https://geo.so.ch/api/wms</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Hintergrundkarte schwarz-weiss</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],AREA["Liechtenstein; Switzerland."],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
+          <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal fetchMode="0" mode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property value="Html" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" opacity="1" alphaBand="-1" nodataColor="" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeRed="255" saturation="0" colorizeOn="0" colorizeBlue="128" colorizeGreen="128" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" autoRefreshEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" refreshOnNotifyEnabled="0" maxScale="0">
+      <extent>
+        <xmin>2569690</xmin>
+        <ymin>1207620</ymin>
+        <xmax>2667680</xmax>
+        <ymax>1268380</ymax>
+      </extent>
+      <id>Hintergrundkarte_farbig_b163ac03_4cb2_448a_a63e_12f9ea46178a</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:2056&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ch.so.agi.hintergrundkarte_farbig&amp;styles&amp;url=https://geo.so.ch/api/wms</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Hintergrundkarte farbig</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["CH1903+ / LV95",BASEGEOGCRS["CH1903+",DATUM["CH1903+",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4150]],CONVERSION["Swiss Oblique Mercator 1995",METHOD["Hotine Oblique Mercator (variant B)",ID["EPSG",9815]],PARAMETER["Latitude of projection centre",46.9524055555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8811]],PARAMETER["Longitude of projection centre",7.43958333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8812]],PARAMETER["Azimuth of initial line",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8813]],PARAMETER["Angle from Rectified to Skew Grid",90,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8814]],PARAMETER["Scale factor on initial line",1,SCALEUNIT["unity",1],ID["EPSG",8815]],PARAMETER["Easting at projection centre",2600000,LENGTHUNIT["metre",1],ID["EPSG",8816]],PARAMETER["Northing at projection centre",1200000,LENGTHUNIT["metre",1],ID["EPSG",8817]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],AREA["Liechtenstein; Switzerland."],BBOX[45.82,5.96,47.81,10.49]],ID["EPSG",2056]]</wkt>
+          <proj4>+proj=somerc +lat_0=46.9524055555556 +lon_0=7.43958333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal fetchMode="0" mode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <property value="Html" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" opacity="1" alphaBand="-1" nodataColor="" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeRed="255" saturation="0" colorizeOn="0" colorizeBlue="128" colorizeGreen="128" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </maplayers>
+</qlr>
